@@ -18,6 +18,7 @@
   "homepage": "https://github.com/juhuyoon/discordbotv1#readme",
   "dependencies": {
     "discord.js": "^11.3.2",
+    "discord.js-commando": "^0.10.0",
     "dotenv": "^6.0.0"
   }
 }
