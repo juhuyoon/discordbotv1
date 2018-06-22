@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/juhuyoon/discordbotv1.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -19,6 +20,8 @@
   "dependencies": {
     "discord.js": "^11.3.2",
     "discord.js-commando": "^0.10.0",
-    "dotenv": "^6.0.0"
+    "dotenv": "^6.0.0",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "opusscript": "0.0.6"
   }
 }
