@@ -18,7 +18,7 @@ class LeaveChannelCommand extends commando.Command {
     //function runs every single time command is called
     async run(message, args) {
         if(message.guild.voiceConnection){
-            message.guild.voiceConnection.disconnect();
+            message.guild.voiceConnection.disconnect() && ;
         }
         else{
             message.reply('I must be in a voice channel to be removed!');
